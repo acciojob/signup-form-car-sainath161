@@ -1,2 +1,14 @@
 
 /* Your CSS Code here. */
+button{
+	background: none;
+	border: none;
+	color: white;
+	background-color: blue;
+	cursor: pointer;
+	height: 30px;
+	width: 70px;
+	
+button:hover{
+	background-color: red;
+}
