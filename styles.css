@@ -6,9 +6,15 @@ button{
 	color: white;
 	background-color: blue;
 	cursor: pointer;
-	height: 30px;
-	width: 70px;
-	
+	height: 25px;
+	width: 65px;
+	font-family: georgia;
+	font-weight: 500;
+}
 button:hover{
 	background-color: red;
+	height: 30px;
+	width: 70px;
+	transition: .2s ease;
+	font-weight: 700;
 }
