@@ -32,29 +32,32 @@ button:hover{
 	<!-- the entire body must be written by student -->
 	<form action="" method="post">
       <label for="name">Name</label>
-      <input type="text" id="name" required placeholder="Name">
+      <input type="text" id="name" required placeholder="Name"><br><br>
       <label for="email">Email</label>
-      <input type="text" id="email" required placeholder="Email">
+      <input type="text" id="email" required placeholder="Email"><br><br>
       <label for="gender">Gender</label>
       <input type="radio" name="gender" id="gender_m" required>
+		<label>Male</label>
       <input type="radio" name="gender" id="gender_f"required>
+		<label for="gender_m">Female</label><br><br>
       <label for="cars">Car Brands</label>
       <select name="cars" id="cars" required aria-placeholder="--Please choose an option-">
+		  <option value="">--Please choose an option--</option>
          <option value="banze">benze</option>
          <option value="bmw">BMW</option>
          <option value="scarpio">scarpio</option>
-      </select>
+      </select><br><br>
       <label for="age">Age</label>
-      <input type="number" name="age" required id="age"> 
+      <input type="number" name="age" required id="age"> <br><br>
       <label for="dob">DOB</label>
-      <input type="date" name="dob" id="dob" required>
+      <input type="date" name="dob" id="dob" required><br><br>
       <label for="tel">Phone Number</label>
-      <input type="tel" name="tel" id="tel" placeholder="xxx-xxx-xxxx">
+      <input type="tel" name="tel" id="tel" placeholder="xxx-xxx-xxxx"><br><br>
       <label for="password">Password</label>
-      <input type="password" name="password" id="password" required>
+      <input type="password" name="password" id="password" required><br><br>
       <input type="checkbox" name="" id="tos" required>
-      <label for="tos">I agree to the TOS</label>
-		         <button type="submit">submit</button>
+      <label for="tos">I agree to the TOS</label><br><br>
+	  <button type="submit">submit</button>
    </form>
     <script type="text/javascript" src="./script.js">
 </script>
